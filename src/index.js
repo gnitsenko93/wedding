@@ -5,7 +5,5 @@ import App from './App';
 
 import Conf from './json/wedding.json';
 
-const conf = Conf;
-
-ReactDOM.render(<App config="conf" />, document.getElementById('root'));
+ReactDOM.render(<App config="Conf" />, document.getElementById('root'));
 
