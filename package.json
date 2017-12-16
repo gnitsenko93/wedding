@@ -9,12 +9,15 @@
     "react-scripts": "1.0.17"
   },
   "scripts": {
-    "start": "react-scripts start",	
+    "start": "webpack-dev-server --open",
+    "watch": "webpack --watch",
     "build": "webpack --config webpack.config.js"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
+    "babel-preset-react": "^6.24.1",
     "webpack": "^3.10.0"
   }
 }
