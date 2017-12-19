@@ -3,15 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "express": "^4.16.2",
     "isomorphic-fetch": "^2.2.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.0.17"
   },
   "scripts": {
-    "start": "webpack-dev-server --open",
-    "watch": "webpack --watch",
-    "build": "webpack --config webpack.config.js"
+    "start": "npm run-script build && node ./src/server.js",
+    "dev": "./node_modules/.bin/webpack-dev-server --open",
+    "watch": "./node_modules/.bin/webpack --watch",
+    "build": "./node_modules/.bin/webpack --config webpack.config.js"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
