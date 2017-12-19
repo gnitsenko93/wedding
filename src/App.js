@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import './styles/App.css';
 import conf from './json/wedding.json';
+
 import Place from './components/Place';
 import Overview from './components/Overview';
+import Summary from './components/Summary';
 
 class App extends Component {
 
@@ -15,7 +17,7 @@ class App extends Component {
     		return (
                 <div className="app">
                     <div className="app__section">
-                        <span>{this.state.summary}</span>
+                        <Summary summary={this.state.summary}/>
                     </div>
                     <div className="app__section">
                         <Overview description={this.state.description}
