@@ -1,3 +1,7 @@
 .place {
+    padding: 5px;
+}
 
+.place span {
+    display: block;
 }
