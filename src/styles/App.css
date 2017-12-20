@@ -1,0 +1,12 @@
+.app {
+    max-width: 568px;
+}
+
+.app__section {
+    padding: 20px;
+}
+
+.timestamp {
+    font-size: 0.8em;
+    font-weight: bold;
+}

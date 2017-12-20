@@ -1,0 +1,23 @@
+.place {
+    padding: 5px;
+    font-size: 1.2em;
+}
+
+.place span {
+    display: block;
+    padding: 2px 0 2px 0;
+}
+
+.place__purpose {
+    font-size: 1.2em;
+}
+
+.place__name {
+    font-size: 0.8em;
+}
+
+.place__address {
+    display: block;
+    padding: 2px 0 2px 0;
+    font-size: 0.8em;
+}
