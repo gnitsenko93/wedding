@@ -1,8 +1,9 @@
 .summary {
     padding: 5px;
+    font-size: 2em;
 }
 
 .summary span {
     display: block;
-    padding: 2px 0 2px 0
+    padding: 2px 0 2px 0;
 }

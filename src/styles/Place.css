@@ -1,8 +1,9 @@
 .place {
     padding: 5px;
+    font-size: 1.2em;
 }
 
 .place span {
     display: block;
-    padding: 2px 0 2px 0
+    padding: 2px 0 2px 0;
 }
