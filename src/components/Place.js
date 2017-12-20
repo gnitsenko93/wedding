@@ -2,8 +2,19 @@ import React, { Component } from 'react';
 import '../styles/Place.css';
 
 class Place extends Component {
-	render() {
-	    return <div className="place">
+
+    constructor(props) {
+        super(props);
+
+        this.handleClick = this.handleClick.bind(this);
+    }
+
+    handleClick() {
+        this.props.clickHandler(this.props.id);
+    }
+
+    render() {
+	    return <div className="place" onClick={this.handleClick}>
             <span className="place__purpose">{this.props.purpose}</span>
             {
                 this.props.address?
