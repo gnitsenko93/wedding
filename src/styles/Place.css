@@ -3,6 +3,12 @@
     font-size: 1.2em;
 }
 
+.place:hover {
+    background-color: #80808030;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
 .place span {
     display: block;
     padding: 2px 0 2px 0;

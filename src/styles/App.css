@@ -1,5 +1,14 @@
 .app {
+    display: flex;
+}
+
+.app div:first-child {
+    min-width: 568px;
     max-width: 568px;
+}
+
+.app div:last-child {
+    flex: 1;
 }
 
 .app__section {
