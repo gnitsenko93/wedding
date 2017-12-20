@@ -11,21 +11,19 @@
 			"name": "Дворец бракосочетания №1",
 			"purpose": "Торжественная часть",
 			"time": "12:00",
-			"address": "Английская набережная, 28"
+			"address": "https://yandex.ru/maps/-/CBa9z6UM0A"
 		},
 		{
 			"id": "4c20c932-4627-4e55-9bc4-d101e15644b0",
 			"name": "TBA",
 			"purpose": "Обед с родителями",
-			"time": "13:30",
-			"address": "TBA"
+			"time": "13:30"
 		},
 		{
 			"id": "7d88f0ec-a837-4e3d-b2a9-9f9d46f8fd50",
 			"name": "TBA",
 			"purpose": "Вечеринка!",
-			"time": "18:00",
-			"address": "TBA"
+			"time": "18:00"
 		}
 	]
 }
